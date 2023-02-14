@@ -1,0 +1,23 @@
+:root {
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secundario: #0097a7;
+    --gris: #757575;
+    --grisClaro: #dfe9f3;
+    --fuentePrincipal:20rem;
+}
+
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6%; /* 1rem = 10px*/
+}
+
+.titulo{
+    text-align: center;
+    font-size: 3.8rem;
+    color:var(--primario);
+}
