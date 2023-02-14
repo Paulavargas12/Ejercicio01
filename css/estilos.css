@@ -13,7 +13,8 @@ html{
     font-size: 62.5%;
 }
 body{
-    font-size: 1.6%; /* 1rem = 10px*/
+    font-size: 1.6rem; /* 1rem = 10px*/
+    font-family: 'Oswald', sans-serif;
 }
 
 .titulo{
@@ -21,3 +22,9 @@ body{
     font-size: 3.8rem;
     color:var(--primario);
 }
+
+.titulo span{
+    font-size: 2rem;
+    color: var(--secundario)
+}
+
