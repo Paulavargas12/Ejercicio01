@@ -140,3 +140,46 @@ h1,h2,h3 {
 .btn_contacto:hover{
     cursor: pointer;
 }
+
+/* SE COMIENZA A ORGANIZAR TODO LO QUE SIGUE DESPUES DEL MENU PRNCIPAL DE LA PARTE DE ARRIBA PRINCIPAL*/
+
+.sombra {
+    box-shadow: 0px 5px 15px 0px rgb(112, 112, 112/48);
+    background-color: var(--blanco);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+@media (min-width: 768px){
+    .contenedor_main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 1rem;
+    align-items: baseline;
+}
+}
+
+.contenedor_main h3{
+    color: var(--secundario);
+    font-size: normal;
+}
+.contenedor_main p{
+    line-height: 2;
+    text-align: center;
+}
+
+.contenedor_main .iconos{
+    height: 15rem;
+    width: 15rem;
+    background-color: var(--primario);
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.servicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
