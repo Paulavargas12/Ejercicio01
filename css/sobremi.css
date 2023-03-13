@@ -88,7 +88,59 @@ h1,h2,h3 {
 /* EDICION IMAGEN YO****************************************/
  
 .imagen_yo{
-    height: 10rem;
+    display: flex;
+    align-items: center;
     justify-content: center;
+    height: 400px;
 }
 
+/* DIVICION DE INFORMACION ************************************/
+
+
+@media (min-width: 768px){
+    .contenedor_main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 10rem;
+    align-items: baseline;
+}
+}
+
+.contenedor_main h3{
+    color: var(--primario);
+    font-size: normal;
+}
+
+.contenedor_main p{
+    line-height: 2;
+    text-align: justify;
+    
+}
+
+.servicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn_minfo{
+    background-color: var(--secundario);
+    color: var(--primario);
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    /*SE LE QUITA EL SUBRAYADO*/
+    text-decoration: none;
+    /*SE COLOCA EL TEXTO EN MAYUSCULA*/
+    text-transform: uppercase;
+    /* GROSOR DE LA FUNTE*/
+    font-weight: bold;
+    /*BORDES REDONDOS*/
+    border-radius: .8rem;
+    /*EL ANCHO DEL BOTON*/
+    display: flex;
+    /*EL LARGO*/
+    width: 95,5%;
+    border: none;
+    justify-content: center;
+}
