@@ -190,19 +190,15 @@ h1,h2,h3 {
 
 .form {
     background-color: var(--grisClaro);
-    width: min(60rem,100%);
+    width: min(60rem, 100%);
     margin: 0 auto;
     padding: 2rem;
     border-radius: 1rem;
 }
 
- /*Se quita la linea de fieldset */
-
 .form fieldset{
     border: none;
 }
-
-/*Se agrdan estilos */
 
 .form fieldset legend{
     margin: 0 auto;
@@ -213,3 +209,39 @@ h1,h2,h3 {
     color: var(--primario);
 }
 
+.campo{
+    margin-bottom: 1rem;
+}
+
+.campo label{
+    font-weight: bold;
+    margin-bottom: 5rem;
+    display: block;
+}
+
+.input_text{
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: .5rem;
+}
+
+@media (min-width: 768px){
+
+    .btn_form {
+        justify-content: flex-end;
+    }
+
+    .btn_form .btn_contacto{
+        width: auto;
+    }
+}
+
+.btn_form{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    text-align: center;
+}
