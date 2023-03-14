@@ -6,6 +6,7 @@
     --primarioClarito: #743002a9;
     --primarioOscuro: #351602;
     --secundario: #f1948ac9 ;
+    --secundarioOscuro1:#a56c66;
     --secundarioOscuro: #dd8a81f3;
     --gris: #757575;
     --grisClaro: #dfe9f3;
@@ -192,32 +193,32 @@ h1,h2,h3 {
 
 /* SE COMIENZA A ORGANIZAR TODO LO DEL FORTUMULARIO Y SU RESPECTIVO DISEÑO ***********************************************/
 
-.form {
-    background-color: var(--grisClaro);
+form {
+    background-color: var(--secundarioOscuro);
     width: min(60rem, 100%);
     margin: 0 auto;
     padding: 2rem;
     border-radius: 1rem;
 }
 
-.form fieldset{
+form fieldset{
     border: none;
 }
 
-.form fieldset legend{
+form fieldset legend{
     margin: 0 auto;
     font-size: 1.8rem;
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: 3rem;
-    color: var(--primario);
+    color: var(--primarioOscuro);
 }
 
-.campo{
+.campos{
     margin-bottom: 1rem;
 }
 
-.campo label{
+.campos label{
     font-weight: bold;
     margin-bottom: 5rem;
     display: block;
@@ -248,4 +249,24 @@ h1,h2,h3 {
 
 footer{
     text-align: center;
+}
+
+.btn_contacto12{
+    background-color: var(--secundarioOscuro1);
+    color: var(--primarioOscuro);
+    padding: 1rem 3rem;
+    margin-top: 3rem;
+    font-size: 2rem;
+    /*SE LE QUITA EL SUBRAYADO*/
+    text-decoration: none;
+    /*SE COLOCA EL TEXTO EN MAYUSCULA*/
+    text-transform: uppercase;
+    /* GROSOR DE LA FUNTE*/
+    font-weight: bold;
+    /*BORDES REDONDOS*/
+    border-radius: .5rem;
+    /*EL ANCHO DEL BOTON*/
+    width: 90%;
+    text-align: center;
+    border: none;
 }

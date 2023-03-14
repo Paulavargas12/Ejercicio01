@@ -123,3 +123,47 @@ h1,h2,h3 {
     display: flex;
     align-items: center;
 }
+/* trabajos*******************************************/
+.trabajos_1{
+    background-color: var(--secundario);
+    color: var(--primario);
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    /*SE LE QUITA EL SUBRAYADO*/
+    text-decoration: none;
+    /*SE COLOCA EL TEXTO EN MAYUSCULA*/
+    text-transform: uppercase;
+    /* GROSOR DE LA FUNTE*/
+    font-weight: bold;
+    /*BORDES REDONDOS*/
+    border-radius: .8rem;
+    /*EL ANCHO DEL BOTON*/
+    display: flex;
+    /*EL LARGO*/
+    width: 95,5%;
+    border: none;
+    justify-content: center;
+}
+
+
+/* CARRUCEL *******************************************/
+.container_carrucel{
+    display: flex;
+    overflow-x: scroll;
+    padding: 24px;
+    width: 400px;
+    height: 460px;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 24px;
+    border-radius: 8px;
+    gap: 12px;
+    margin: 2rem auto;
+}
+
+.container_carrucel .item{
+    flex: 0 0 100%;
+    padding: 24px;
+    border-radius: 8px;
+    scroll-snap-align: start;
+}
